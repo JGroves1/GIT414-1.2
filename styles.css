@@ -49,6 +49,12 @@ table {
 
 /* ---------- BEGIN CUSTOM STYLES ---------- */
 
+/* --- JG ADDED --- */
+
+#phoneNumber {
+	visibility: hidden;
+}
+
 *{
 	font-family: sans-serif;
 	line-height: 1.35;
