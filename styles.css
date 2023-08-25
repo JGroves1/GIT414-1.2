@@ -51,12 +51,6 @@ table {
 
 /* --- JG ADDED --- */
 
-#phoneNumber {
-	visibility: hidden;
-	height: 0;
-	width: 0;
-}
-
 *{
 	font-family: sans-serif;
 	line-height: 1.35;
