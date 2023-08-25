@@ -218,7 +218,7 @@ input:error, select:error, textarea:error{
 
 /* --- JG ADDED ---*/
 
-#phoneNumber {
+#phoneNumber{
 	visibility: hidden;
 	height: 0;
 	width: 0;
