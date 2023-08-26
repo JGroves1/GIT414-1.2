@@ -38,7 +38,7 @@
 
 			<label for="tel">Phone<span class="required">*</span></label>
 			<input id="tel" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" aria-describedby="phoneNumber" placeholder="Format 123-465-7890" required>
-			<span id="phoneNumber">Format 123-456-7890</span>
+			<div id="phoneNumber">Format 123-456-7890</div>
 
 			<fieldset>
 				<legend>Preferred Contact Method<span class="required">*</span></legend>
@@ -51,10 +51,8 @@
 
 			<!-- STATE DROP DOWN-->
 				<div>
-					<label for="state">State of Residence<span class="required">*</span></label>
-					<input id="state" name="state" type="text" list="states" required>
-					<datalist id="states">
-						<select>
+					<label for="states">State of Residence<span class="required">*</span></label>
+						<select id="states" name="states" list="states" required>
 							<option value="AL">Alabama</option>
 							<option value="AK">Alaska</option>
 							<option value="AZ">Arizona</option>
@@ -106,7 +104,6 @@
 							<option value="WI">Wisconsin</option>
 							<option value="WY">Wyoming</option>
 						</select>
-					</datalist>
 				</div>
 			<!-- END STATE DROP DOWN-->
 
